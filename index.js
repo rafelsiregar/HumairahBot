@@ -298,7 +298,7 @@ function dailyMessage(channels, message, h, m, s){
 }
 
 
-
+require('dotenv').config();
 client.login(process.env.token);
 
 //console.log("Trigerred")
